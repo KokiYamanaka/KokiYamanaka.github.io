@@ -19,8 +19,7 @@ Large Language Models (LLMs) requires substantial GPU memory for training, faces
  efficiently fine-tunes LLMs by quantizing pretrained model weights into fewer bits and introducing new domain-specific weights. Quantization can be also thought as a compression process, employed in Image Compression as well. For example, [IGS (Improved gray-scale)](https://inst.eecs.berkeley.edu/~ee225b/sp14/homework/IGS.pdf) utilizes quantization to compress a less meaningful pixel area image of a bottle from 32 bits to 16 bits.
 [LLM in a Flash](https://arxiv.org/abs/2312.11514) which enables effective execution of LLMs exceeding DRAM capacity by storing parameters on flash memory (memory is stored when computer is off). Additionally, it loads parameters only for recent tokens, reusing activations from previously computed tokens for optimal efficiency. From these, we expect to have rise in using [light-weight LLM](https://hanlab.mit.edu/blog/tinychat) in low-gpu devices. One example is OpenAI's [AI Device](https://www.bloomberg.com/news/articles/2023-12-26/apple-iphone-design-head-tang-tan-to-work-with-jony-ive-sam-altman-on-ai-tech).
 
-
-![image](https://github.com/KokiYamanaka/kokiyamanaka.github.io/assets/107101940/59cd8197-4415-42a2-8efa-b94e8e272120)
+![image](https://github.com/KokiYamanaka/kokiyamanaka.github.io/assets/107101940/59cd8197-4415-42a2-8efa-b94e8e272120){:width="300px"}
 
 
 ## MathJax
