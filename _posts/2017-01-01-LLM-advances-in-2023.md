@@ -45,7 +45,9 @@ $$ h'(t) = Ah(t) + Bx(t)  $$
 $$ y(t) = Ch(t)  $$
 
 <small>
-where matrices $$A$$, $$B$$, $$C$$ capture pertinent information from the input sequence, $$x(t)$$ are word embeddings, $$h(t)$$ are hidden state are time $$t$$. 
+where matrices $$A$$, $$B$$, $$C$$ capture pertinent information from the input sequence, $$x(t)$$ are word embeddings, 
+ 
+and $$h(t)$$ are hidden state are time $$t$$. 
 
 First equation signifies that the next state of the system $$ h'(t) $$ is updated by considering the current hidden state $$Ah(t)$$ and incorporating a temporal hidden state $$ Bx(t) $$. This temporal component is sequence length adjustable. The resulting $$y(t)$$ represents our output sequence derived from the final hidden state matrix.
 <br>
@@ -60,7 +62,8 @@ Transitivity in evaluations eliminates the need for costly head-to-head model co
 The second trend, more prevalent in industry, involves evaluating foundational models based on their domain-specific capabilities. An example is the paper [Evaluation of Large Language Models for Decision Making in Autonomous Driving](https://arxiv.org/abs/2312.06351) by Turing. Key considerations include using a couple models, identifying the essential LLM capabilities (spatial awareness and traffic rule adherence) needed for the task (driving in complex scenarios), setting up a design for quantitative evaluation. 
  
 
-|![image](https://github.com/KokiYamanaka/kokiyamanaka.github.io/assets/107101940/c0a859c1-806e-4a59-8119-735af70d93f5){:width="500px"}|
+<p style="text-align: center;">![image](https://github.com/KokiYamanaka/kokiyamanaka.github.io/assets/107101940/c0a859c1-806e-4a59-8119-735af70d93f5){:width="500px"}</p> 
+
 <small>
 <p style="text-align: center;">Comparison of LLMs’ accuracy for spatial-aware decision-making (SADM), following the
 traffic rules (FTR), both combined (SADM&FTR)</p> 
