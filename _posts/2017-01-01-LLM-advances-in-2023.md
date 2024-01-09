@@ -35,16 +35,16 @@ Previously, transformers, which uses self attention mechanism (weigh importance 
 Recall that, each RNN hidden state's can't remember a long range of sequence. Selective SSM is essentially an "upgraded version" of RNN. Upgraded means the hidden state, which acts as a memory unit, stores a longer window of past sequences. In other words, LLM can remember a broader context in a sentence. In each RNN's hidden state, longer sequence memory retention is achieved by filteringout irrelevant tokens and compressing the relevant tokens.
 This mechanism is called the “selective”.
 
-![image](https://github.com/KokiYamanaka/kokiyamanaka.github.io/assets/107101940/83ce145b-5543-4056-8657-d28f02e612ed)
+|![image](https://github.com/KokiYamanaka/kokiyamanaka.github.io/assets/107101940/83ce145b-5543-4056-8657-d28f02e612ed)|
 
 The in depth versions of this mechanism works as follows. 
 In the realm of each RNN's hidden state, extending memory for longer sequences involves a selective mechanism. This process entails filtering out irrelevant tokens and compressing pertinent ones. The underlying mechanism, termed "selective," operates with the following intricacies: 
 
-\[ h'(t) = Ah(t) + Bx(t) \]
+$$ h'(t) = Ah(t) + Bx(t) $$
 
-\[ y(t) = Ch(t) \]
+$$ y(t) = Ch(t) $$
 
-where matrices \(A\), \(B\), and \(C\) capture pertinent information from the input sequence.
+where matrices $A$, $B$, $C$ capture pertinent information from the input sequence.
 
 Equation (1) signifies that the next state of the system is updated by considering the current hidden state and incorporating a temporal hidden state. The resulting y(t) represents our output sequence derived from the final hidden state matrix.
 
