@@ -62,13 +62,14 @@ Transitivity in evaluations eliminates the need for costly head-to-head model co
 The second trend, more prevalent in industry, involves evaluating foundational models based on their domain-specific capabilities. An example is the paper [Evaluation of Large Language Models for Decision Making in Autonomous Driving](https://arxiv.org/abs/2312.06351) by Turing. Key considerations include using a couple models, identifying the essential LLM capabilities (spatial awareness and traffic rule adherence) needed for the task (driving in complex scenarios), setting up a design for quantitative evaluation. 
  
 
-<p align="center">
-  <img width="460" height="300" src="https://github.com/KokiYamanaka/kokiyamanaka.github.io/assets/107101940/bd509cfe-d55d-400b-97a5-d45b8bf432dd">
-</p>
+|![image](https://github.com/KokiYamanaka/kokiyamanaka.github.io/assets/107101940/0e39b0ba-1147-4837-be1f-86cde9e73b39)|![image](https://github.com/KokiYamanaka/kokiyamanaka.github.io/assets/107101940/9b7825b3-8cb5-44b5-8654-f4480f095b50)|
 
 |<small>
 Comparison of LLMs’ accuracy for spatial-aware decision-making (SADM), following the
 traffic rules (FTR), both combined (SADM&FTR)
+|<small>
+Representative example of reasoning outputs from LLMs. GPT-4 is the only model that
+correctly made a decision without being misled by the user’s instructions.
  
 For decision making task, initially finding out the kind capabitilies LLM needed is crucial for production as it reduces the development time.  
 
