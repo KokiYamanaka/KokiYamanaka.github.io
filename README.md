@@ -26,8 +26,8 @@ Toranomon, Japan
 [Portbank Inc](https://portback.com/) 
 <small> 
 May 2023 - July 2023 
-
-Kanda, Japan </small>
+<small>
+Kanda, Japan  
 
 - -Implemented LLM model for a tourist application app, focusing on text-data preparation, vector database setup, and seamless LLM integration.
 - -Skills: Chroma · Python · Lang-chain · Weavite · Docker · Natural Language Processing (NLP)
@@ -36,8 +36,8 @@ Kanda, Japan </small>
 [Colodus](https://colodus.com/)
 <small>
 Apr 2023 - May 2023 
-
-Tokyo, Japan</small>
+<small>
+Tokyo, Japan 
 
 - -Developed math problems for a Japanese university entrance exam as part of an LLM-based education startup. Additionally, designed a program utilizing LLM models to automate the conversion of math content from text to Katex format.
 - -Skills: LaTeX · Katex · lang chain · Mathematics · Python 
