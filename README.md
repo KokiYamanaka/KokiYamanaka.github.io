@@ -16,8 +16,8 @@ layout: page
 
 <small>
 Aug 2023 - Dec 2023
-  
-Toranomon, Japan </small>
+<small>
+Toranomon, Japan 
 
 - -Implemented a Language Model (LLM) to automate and streamline labor consultant tasks, specifically handling recurring legal inquiries during employment contract creation
 - -Skills: LLM · RAG · AWS (ML focused) · Traditional NLP libraries
