@@ -3,8 +3,7 @@ title: "Profile"
 permalink: "/about/"
 layout: page
 ---
-<img src="(https://github.com/KokiYamanaka/kokiyamanaka.github.io/assets/107101940/e9027a67-d246-40ad-8684-1e3330e86a33" width="200" height="200" alt="profile-pic">
-![image](https://github.com/KokiYamanaka/kokiyamanaka.github.io/assets/107101940/c5d7bbf2-4dd4-4847-ae97-4fe7810c05fe)
+<img src="https://github.com/KokiYamanaka/kokiyamanaka.github.io/assets/107101940/e9027a67-d246-40ad-8684-1e3330e86a33" width="200" height="200" alt="profile-pic">
 
 * BSc - Mathematics, minor in Computer Science at [TRU](https://www.tru.ca/) (Canada)
 * liewguangyi2001@gmail.com
@@ -39,12 +38,13 @@ Apr 2023 - May 2023
 <small>
 Tokyo, Japan 
 
-- -Developed math problems for a Japanese university entrance exam as part of an LLM-based education startup. Additionally, designed a program utilizing LLM models to automate the conversion of math content from text to Katex format.
+- -Created math problems for Japanese university entrance exam as part of an LLM-based education startup. 
+- -Designed a program utilizing LLM models to automate the conversion of math content from text to Katex format.
 - -Skills: LaTeX · Katex · lang chain · Mathematics · Python 
 
 ### Others
-- Cook at [Vietnamese restaurant](https://www.lemongrasskamloops.ca/) 
-- Catering business [Gallery1](https://www.instagram.com/kokiy_art34/?hl=en) , [Gallery2](https://www.instagram.com/kouki._.kitchen/?hl=en)
+- Assistant Cook at [Vietnamese restaurant](https://www.lemongrasskamloops.ca/) 
+- Self Catering business [Gallery1](https://www.instagram.com/kokiy_art34/?hl=en) , [Gallery2](https://www.instagram.com/kouki._.kitchen/?hl=en)
 - Laptop configurator at [Hitachi Logistics](https://www.logisteed.com/jp/) 
 - Cook at [Yoshinoya](https://www.yoshinoya.com/en/)
 
