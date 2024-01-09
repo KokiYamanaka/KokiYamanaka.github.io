@@ -23,7 +23,7 @@ Large Language Models (LLMs) requires substantial GPU memory for training, faces
 |![image](https://github.com/KokiYamanaka/kokiyamanaka.github.io/assets/107101940/59cd8197-4415-42a2-8efa-b94e8e272120){:width="500px"} | ![image](https://github.com/KokiYamanaka/kokiyamanaka.github.io/assets/107101940/00b2177c-8a3d-4649-b75c-210c96885de1){:width="500px"}|
 
 <small>
-Scenario where light-weight LLM is crucial : [Using GPT 3.5 Turbo to drive the vehicle from Turing Inc](https://www.youtube.com/watch?v=B7iBtwQflIE)
+<p style="text-align: center;">Scenario where light-weight LLM is crucial : [Using GPT 3.5 Turbo to drive the vehicle from Turing Inc](https://www.youtube.com/watch?v=B7iBtwQflIE)</p>
 
 
 ### Model Architecture
