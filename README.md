@@ -3,7 +3,7 @@ title: "Profile"
 permalink: "/about/"
 layout: page
 ---
-<img src="[https://github.com/KokiYamanaka/KokiYamanaka.github.io/assets/107101940/d458d444-4a62-4fe1-8439-ac521c421916](https://github.com/KokiYamanaka/kokiyamanaka.github.io/assets/107101940/18312ced-5f0d-4ee3-8ea6-a1a874f87a4e)" width="200" height="200" alt="profile-pic">
+<img src="(https://github.com/KokiYamanaka/kokiyamanaka.github.io/assets/107101940/e9027a67-d246-40ad-8684-1e3330e86a33" width="200" height="200" alt="profile-pic">
 
 * BSc - Mathematics, minor in Computer Science at [TRU](https://www.tru.ca/) 
 * liewguangyi2001@gmail.com
