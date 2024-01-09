@@ -62,7 +62,7 @@ Transitivity in evaluations eliminates the need for costly head-to-head model co
 The second trend, more prevalent in industry, involves evaluating foundational models based on their domain-specific capabilities. An example is the paper [Evaluation of Large Language Models for Decision Making in Autonomous Driving](https://arxiv.org/abs/2312.06351) by Turing. Key considerations include using a couple models, identifying the essential LLM capabilities (spatial awareness and traffic rule adherence) needed for the task (driving in complex scenarios), setting up a design for quantitative evaluation. 
  
 
-![image](https://github.com/KokiYamanaka/kokiyamanaka.github.io/assets/107101940/c0a859c1-806e-4a59-8119-735af70d93f5){:width="600px"}
+![image](https://github.com/KokiYamanaka/kokiyamanaka.github.io/assets/107101940/c0a859c1-806e-4a59-8119-735af70d93f5){:width="800px"}
 
 <small>
 <p style="text-align: center;">Comparison of LLMs’ accuracy for spatial-aware decision-making (SADM), following the
