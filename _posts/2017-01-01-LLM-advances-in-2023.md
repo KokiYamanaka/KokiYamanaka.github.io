@@ -62,7 +62,7 @@ Transitivity in evaluations eliminates the need for costly head-to-head model co
 The second trend, more prevalent in industry, involves evaluating foundational models based on their domain-specific capabilities. An example is the paper [Evaluation of Large Language Models for Decision Making in Autonomous Driving](https://arxiv.org/abs/2312.06351) by Turing. Key considerations include using a couple models, identifying the essential LLM capabilities (spatial awareness and traffic rule adherence) needed for the task (driving in complex scenarios), setting up a design for quantitative evaluation. 
  
 
-<p style="text-align: center;">![image](https://github.com/KokiYamanaka/kokiyamanaka.github.io/assets/107101940/c0a859c1-806e-4a59-8119-735af70d93f5){:width="500px"}</p> 
+![image](https://github.com/KokiYamanaka/kokiyamanaka.github.io/assets/107101940/c0a859c1-806e-4a59-8119-735af70d93f5){:width="600px"}
 
 <small>
 <p style="text-align: center;">Comparison of LLMs’ accuracy for spatial-aware decision-making (SADM), following the
@@ -117,6 +117,10 @@ In the Tower of Pisa example, proposition retrieval efficiently conveys the angl
 One interesting applications of LLM that I've seen is how LLM is used in Trading. Till now, we've used stock features (e.g. price, volume) follow by traditional Time Series or Machine Learning models to perform prediction. However, more "publicly available information" are needed as sources for predictions. These additional sources can be "textual data". It could be news headlines or summaries, crypto analytic report, etc. We need to use ingest these sources to LLM, and provide useful insights to make prediction. 
 
 For instance, "[Can ChatGPT Forecast Stock Price Movements? Return Predictability and Large Language Models](https://arxiv.org/abs/2304.07619)" utilized LLM to analyze public sentiments towards a certain stock price. It uses larger parameter models like ChatGPT4 to produce a sharpe ratio (returns with good degree of risks) of 3.8 (>3 is generally good) on some stock prices. Rating, explaination, confidence of generation is also asked by LLM to measure model's explanability. 
+
+|![image](https://github.com/KokiYamanaka/kokiyamanaka.github.io/assets/107101940/3c9f9e48-17ab-4ec8-8511-ac01e4cf8047)|
+<small> 
+Cumulative Returns of Investing $1 (Without Transaction Costs)
 
 The task left for us is to "deepen" LLM insights. The focus should extend beyond surface-level information, exploring more profound layers of textual data for a nuanced understanding of market dynamics. Some Quant research institution from China has been doing this"[Integrating Stock Features and Global Information via Large Language Models for Enhanced Stock Return Prediction](https://arxiv.org/abs/2310.05627)". They created Local-Global model to extract deeper level insights and SCRL (Self-Correlated Reinforcement Learning) to focus on aligning news text with stock features on same semantic space. Align here means creating a common quantitatitve space for better sentiment analysis.
 
