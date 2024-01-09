@@ -27,8 +27,7 @@ Toranomon, Japan </small>
 <small> 
 May 2023 - July 2023 
 
-Kanda, Japan 
-</small>
+Kanda, Japan </small>
 
 - -Implemented LLM model for a tourist application app, focusing on text-data preparation, vector database setup, and seamless LLM integration.
 - -Skills: Chroma · Python · Lang-chain · Weavite · Docker · Natural Language Processing (NLP)
@@ -38,11 +37,10 @@ Kanda, Japan
 <small>
 Apr 2023 - May 2023 
 
-Tokyo, Japan
-</small>
+Tokyo, Japan</small>
 
-- Developed math problems for a Japanese university entrance exam as part of an LLM-based education startup. Additionally, designed a program utilizing LLM models to automate the conversion of math content from text to Katex format.
-- Skills: LaTeX · Katex · lang chain · Mathematics · Python (Programming Language)
+- -Developed math problems for a Japanese university entrance exam as part of an LLM-based education startup. Additionally, designed a program utilizing LLM models to automate the conversion of math content from text to Katex format.
+- -Skills: LaTeX · Katex · lang chain · Mathematics · Python 
 
 ### Others
 - Cook at [Vietnamese restaurant](https://www.lemongrasskamloops.ca/) 
@@ -51,8 +49,8 @@ Tokyo, Japan
 - Cook at [Yoshinoya](https://www.yoshinoya.com/en/)
 
 ## Languages
-- Fluent in English, Chinese, Japanese, Malay
-- R, Python, MATLAB, JAVA, SQL
+- -Fluent in English, Chinese, Japanese, Malay
+- -R, Python, MATLAB, JAVA, SQL
   
 ## Projects
 1. DASC6510/STAT4990 Time Series Analysis and Forecasting :<br>
