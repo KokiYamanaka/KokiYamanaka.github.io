@@ -45,7 +45,7 @@ Tokyo, Japan
 - -Skills: LaTeX · Katex · lang chain · Mathematics · Python 
 
 ### Others
-- Assistant Cook at [Vietnamese restaurant](https://www.lemongrasskamloops.ca/) 
+- Assistant Cook at [Vietnamese restaurant](https://www.lemongrasskamloops.ca/) (Canada)
 - Self Catering business [Gallery1](https://www.instagram.com/kokiy_art34/?hl=en) , [Gallery2](https://www.instagram.com/kouki._.kitchen/?hl=en)
 - Laptop configurator at [Hitachi Logistics](https://www.logisteed.com/jp/) 
 - Cook at [Yoshinoya](https://www.yoshinoya.com/en/)
@@ -72,7 +72,7 @@ Tokyo, Japan
 
 ## Coursework   
 - [Algorithms and Data Structures](https://github.com/KokiYamanaka/cs-university-coursework/tree/main/COMP2231%20Data%20Structures%20and%20Algorithms) ,[Object-oriented programming](https://github.com/KokiYamanaka/cs-university-coursework/tree/main/COMP1230%20Computer%20Programming%202), [JAVA Programming](https://github.com/KokiYamanaka/cs-university-coursework/tree/main/COMP1130-Computer%20Programming%201), [Database systems](https://github.com/KokiYamanaka/cs-university-coursework/blob/main/COMP3610%20Database%20Systems/README.md), Computer Vision, Machine Learning, Applied Artificial Intelligence
-- Statistics, Statistical inference, (Graduate-level)Time Series & Forecasting, Probability theory, Stochastic processes, Real Analysis, Linear algebra, Optimization, Multivariable calculus, Graph Theory. 
+- Statistics, Statistical inference, (Graduate-level) Time Series & Forecasting, Probability theory, Stochastic processes, Real Analysis, Linear algebra, Optimization, Multivariable calculus, Graph Theory. 
 
 ## Online Courses
 - [Deep Learning Specialization Course](https://github.com/KokiYamanaka/DeepL-course): Completed a course on neural networks, deep learning, project structuring, and convolutional neural networks.
