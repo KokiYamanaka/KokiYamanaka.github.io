@@ -1,99 +1,64 @@
 ---
-title: "About"
+title: "Profile"
 permalink: "/about/"
 layout: page
 ---
 
-## Installation
+<img src="https://github.com/KokiYamanaka/KokiYamanaka.github.io/assets/107101940/d458d444-4a62-4fe1-8439-ac521c421916" width="200" height="200" alt="profile-pic">
 
-Just fork this [repository](https://github.com/niklasbuschmann/contrast) and adjust the `_config.yml` to use with [Github Pages](https://pages.github.com/) and your page is done.
+* BSc - Mathematics, minor in Computer Science at [TRU](https://www.tru.ca/) 
+* liewguangyi2001@gmail.com
 
-## Features
+## Experience
 
- - supports dark mode on macOS Mojave
- - optional sidebar
- - MathJax support
- - no external ressources
- - included archive page
- - supports pagination
- - feed generation
- - responsive
- - syntax highlighting
- - supports comments via [disqus](https://disqus.com/) or [isso](http://posativ.org/isso/)
+### Generative AI Engineer Intern 
+[Open Associates Inc](https://www.open-associates.com/) · Internship | Auguest  2023 - Present | Toranomon, Japan  
+- Automating Labor and Social Security Attorney inquiries for companies hiring employees, streamlining responses to recurring questions on legal aspects of employment contracts. Utilizing Language Model technology for efficient and accurate guidance based on historical inquiries.
+- Skills: Opensource LLM models · Tools needed for [RAG](https://www.promptingguide.ai/techniques/rag) · AWS · NLP tools · Data preparation 
 
-## Based on
 
-- [Hyde](https://github.com/poole/hyde)
-- [Minima](https://github.com/jekyll/minima)
-- [Lagrange](https://github.com/LeNPaul/Lagrange)
-- [Font Awesome](http://fontawesome.io/)
-- [KaTeX](https://katex.org/)
-- [Pygments](https://github.com/richleland/pygments-css)
+### Software Engineer Intern 
+[Portbank Inc](https://portback.com/) · Internship | May 2023 - July 2023 | Kanda, Japan 
 
-## Installation (jekyll-remote-theme method)
+- Implemented LLM model for a tourist application, focusing on text-data preparation, vector database setup, and seamless LLM integration.
+- Skills: Chroma · Python · Lang-chain · Weavite · Docker · Natural Language Processing (NLP)
 
-You can use this theme with the `jekyll-remote-theme` plugin. Just create an empty repo, copy over the `index.html` file and add this to your `_config.yml`:
+### Math content writter 
+Colodus · Internship | Apr 2023 - May 2023 | Tokyo, Japan 
+- Developed math problems for a Japanese university entrance exam as part of an LLM-based education startup. Additionally, designed a program utilizing LLM models to automate the conversion of math content from text to Katex format.
+- Skills: LaTeX · Katex · lang chain · Mathematics · Python (Programming Language)
 
-```yaml
-remote_theme: niklasbuschmann/contrast@v2.11
+### Others
+- Cook at [Vietnamese restaurant](https://www.lemongrasskamloops.ca/) 
+- Catering business [Gallery1](https://www.instagram.com/kokiy_art34/?hl=en) , [Gallery2](https://www.instagram.com/kouki._.kitchen/?hl=en)
+- Laptop configurator at [Hitachi Logistics](https://www.logisteed.com/jp/) 
+- Cook at [Yoshinoya](https://www.yoshinoya.com/en/)
 
-plugins:
-  - jekyll-remote-theme
-```
+## Languages
+- Fluent in English, Chinese, Japanese, Malay
+- R, Python, MATLAB, JAVA, SQL
+  
+## Projects
+- DASC6510/STAT4990 Time Series Analysis and Forecasting :<br>
+*Determining the Optimal Forecasting Model for the Dow Jones Industrial Average (DJI) [Paper](https://github.com/KokiYamanaka/KokiYamanaka.github.io/files/13630767/stat4990_project_paper.pdf), [Github](https://github.com/kumi99/STAT_4990_Final_Project/tree/main), [Slides](https://github.com/KokiYamanaka/KokiYamanaka.github.io/files/13630986/STAT.4990.Presentation.pptx)*
+- MATH4430 Graph Theory :<br>
+*Most Efficient Algorithm for finding an Euler Trail in a graph: Hierholzer vs. Fleury [Paper](https://github.com/KokiYamanaka/KokiYamanaka.github.io/files/13630771/math4430_project_paper.pdf),  [Code](https://colab.research.google.com/drive/1-BEuy6KD8R35OprpvlcpYPPUR6rAoPBo?usp=sharing), [slides](https://github.com/KokiYamanaka/KokiYamanaka.github.io/files/13630991/math4430_project_slides.pdf)*
+- COMP4980_03 Computer Vision:<br>
+*Enhancing Ship Classification via satellite Images: A Comparative Analysis of HOG Feature Descriptor Outperforming PCA [Paper](https://github.com/KokiYamanaka/KokiYamanaka.github.io/files/13630793/computer_vision_project.pdf), [Code](https://colab.research.google.com/drive/1XS353eV0HvTIEB0UMQlDoWY6-qlODfOs?usp=sharing)*
+- COMP4980_01 Machine Learning :<br>
+*Determining the Optimal Regression Model for Amen Housing Dataset [Paper](https://github.com/KokiYamanaka/KokiYamanaka.github.io/files/13630798/paper_project_comp4980_01.pdf), [Code](https://colab.research.google.com/drive/1M9qpU32CfGL4saWHtiqNGd0jdJquFiUr?usp=sharing#scrollTo=TVAQFB2oblKM)*
+- COMP3710 Applied Artificial Intelligence: <br>
+*Creative Art Generation using Genetic Algorithm. [Github](https://github.com/KokiYamanaka/Genetic-painting)*
+- MATH3400 Optimization - Linear Programming:<br>
+*Optimizing Ukrainian fruit farmer's profit using Linear Programming [Github](https://github.com/KokiYamanaka/Optimization-for-farmers)*
+- COMP3610 Database Systems: <br>
+*Car rental database system case study [Github](https://github.com/KokiYamanaka/cs-university-coursework/tree/main/COMP3610%20Database%20Systems/project%20case%20study)*
 
-Note: to enable icons you also need to copy over the `_data` folder.
+## Coursework   
+- [Algorithms and Data Structures](https://github.com/KokiYamanaka/cs-university-coursework/tree/main/COMP2231%20Data%20Structures%20and%20Algorithms) ,[Object-oriented programming](https://github.com/KokiYamanaka/cs-university-coursework/tree/main/COMP1230%20Computer%20Programming%202), [JAVA Programming](https://github.com/KokiYamanaka/cs-university-coursework/tree/main/COMP1130-Computer%20Programming%201), [Database systems](https://github.com/KokiYamanaka/cs-university-coursework/blob/main/COMP3610%20Database%20Systems/README.md), Computer Vision, Machine Learning, Applied Artificial Intelligence
+- Statistics, Statistical inference, (Graduate-level)Time Series & Forecasting, Probability theory, Stochastic processes, Real Analysis, Linear algebra, Optimization, Multivariable calculus, Graph Theory. 
 
-## Config
+## Online Courses
+- [Deep Learning Specialization Course](https://github.com/KokiYamanaka/DeepL-course): Completed a course on neural networks, deep learning, project structuring, and convolutional neural networks.
 
-Your `_config.yml` could for example look like this:
 
-```yaml
-title: "Blog Title"
-author: "Blog Author"
-description: "My personal blog about ... something"
-permalink: /:title/
-lang: "en"
-excerpt_separator: "\n\n\n"
-date_format: "%B %d, %Y"
-
-# Layout
-
-show_excerpts: true        # show article excerpts on the home page
-show_frame: true           # adds a gray frame to the site
-show_sidebar: false        # show a sidebar instead of the usual header
-
-# Menu
-
-navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {file: "index.html"}
-  - {file: "README.md"}
-
-external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
-  - {title: Mail, icon: envelope, url: "mailto:niklasbuschmann@users.noreply.github.com"}
-  - {title: Github, icon: github, url: "https://github.com/niklasbuschmann/contrast"}
-  - {title: Subscribe, icon: rss, url: "/feed.xml"}
-
-comments:
-#  disqus_shortname: ""    # see https://disqus.com/
-#  isso_domain: ""         # see https://posativ.org/isso/
-
-plugins:
- - jekyll-feed
-
-```
-
-## MathJax
-
-Contrast comes preinstalled with a leightweight alternative to MathJax called [KaTeX](https://katex.org/). To display equations in a post simply set `mathjax: true` in the article's front matter.
-
-## License
-
-[public domain](http://unlicense.org/)
-
-## Screenshots
-
-![screenshot](https://user-images.githubusercontent.com/4943215/109431850-cd711780-7a08-11eb-8601-2763f2ee6bb4.png)
-
-![screenshot](https://user-images.githubusercontent.com/4943215/109431832-b6cac080-7a08-11eb-9c5e-a058680c23a1.png)
-
-![screenshot](https://user-images.githubusercontent.com/4943215/73125194-5f0b8b80-3fa4-11ea-805c-8387187503ad.png)
