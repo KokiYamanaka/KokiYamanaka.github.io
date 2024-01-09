@@ -45,7 +45,7 @@ $$ h'(t) = Ah(t) + Bx(t)  $$
 $$ y(t) = Ch(t)  $$
 
 <small>
-where matrices $$A$$, $$B$$, $$C$$ capture pertinent information from the input sequence, $$x(t)$$ are word embeddings, $$h(t)$$ are hidden state are time $t$. 
+where matrices $$A$$, $$B$$, $$C$$ capture pertinent information from the input sequence, $$x(t)$$ are word embeddings, $$h(t)$$ are hidden state are time $$t$$. 
 
 First equation signifies that the next state of the system $$ h'(t) $$ is updated by considering the current hidden state $$Ah(t)$$ and incorporating a temporal hidden state $$ Bx(t) $$. This temporal component is sequence length adjustable. The resulting $$y(t)$$ represents our output sequence derived from the final hidden state matrix.
 <br>
@@ -58,7 +58,13 @@ The first kind includes creating new kind of metrics drawing from other fields t
 Transitivity in evaluations eliminates the need for costly head-to-head model comparisons. If Model A is deemed superior to Model B and Model B is superior to Model C, transitivity suggests that Model A is also superior to Model C ($$A$$ > $$B$$ and $$B$$ > $$C$$ implies $$A > C$$). 
 
 The second trend, more prevalent in industry, involves evaluating foundational models based on their domain-specific capabilities. An example is the paper [Evaluation of Large Language Models for Decision Making in Autonomous Driving](https://arxiv.org/abs/2312.06351) by Turing. Key considerations include using a couple models, identifying the essential LLM capabilities (spatial awareness and traffic rule adherence) needed for the task (driving in complex scenarios), setting up a design for quantitative evaluation. 
+ 
 
+|![image](https://github.com/KokiYamanaka/kokiyamanaka.github.io/assets/107101940/c0a859c1-806e-4a59-8119-735af70d93f5){:width="500px"}|
+<small>
+<p style="text-align: center;">Comparison of LLMs’ accuracy for spatial-aware decision-making (SADM), following the
+traffic rules (FTR), both combined (SADM&FTR)</p> 
+ 
 For decision making task, initially finding out the kind capabitilies LLM needed is crucial for production as it reduces the development time.  
 
 ### Prompt Engineering 		
@@ -93,7 +99,14 @@ These papers essentially propose LLM to think/generate in different ways inspire
 
  
 ### Retrievals
-They are frequently employed to enhance Large Language Models (LLMs) with increased context awareness. There exist pre and post retrieval frameworks. Former performs a query and latter (filtering, reranking, prompt compression) refines the query for accuracy. The former seems to have more attention by major conferences. [Jina](https://arxiv.org/abs/2307.11224), 8k token text embedding model, suggests accurate context awareness occur when longer sequences are stored per unit retrieval vector, while [Dense X Retrieval](https://arxiv.org/abs/2312.06648), opposes Jina, saying that shorter sequences are more accurate. Dense X says "proposition" (short and clear statement) as per unit vector is better. In the Tower of Pisa example, proposition retrieval efficiently conveys the angle without unnecessary details: "The Leaning Tower of Pisa now leans at about 3.99 degrees."
+They are frequently employed to enhance Large Language Models (LLMs) with increased context awareness. There exist pre and post retrieval frameworks. Former performs a query and latter (filtering, reranking, prompt compression) refines the query for accuracy. The former seems to have more attention by major conferences. [Jina](https://arxiv.org/abs/2307.11224), 8k token text embedding model, suggests accurate context awareness occur when longer sequences are stored per unit retrieval vector, while [Dense X Retrieval](https://arxiv.org/abs/2312.06648), opposes Jina, saying that shorter sequences are more accurate. Dense X says "proposition" (short and clear statement) as per unit vector is better. 
+
+|![image](https://github.com/KokiYamanaka/kokiyamanaka.github.io/assets/107101940/b9b99e86-98cf-4687-8b2a-b94aebd56ddd)|![image](https://github.com/KokiYamanaka/kokiyamanaka.github.io/assets/107101940/a0f0b605-276d-4a74-9459-c9fc937f7a7b)|
+
+
+
+In the Tower of Pisa example, proposition retrieval efficiently conveys the angle without unnecessary details: "The Leaning Tower of Pisa now leans at about 3.99 degrees."
+
 
 
 
