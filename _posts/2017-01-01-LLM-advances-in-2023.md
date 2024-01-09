@@ -5,7 +5,7 @@ categories: media
 ---
 
 ## Abstract 
-**This post explores prominent and lesser-known research trends in LLM, encompassing both practical applications and theoretical advancements. These below six topics encapsulate the focal points of most LLM research.**
+**This post explores prominent and lesser-known research trends in LLM, encompassing both practical applications and theoretical advancements. These six topics below encapsulate the focal points of most LLM research.**
 
 ## Table of contents 
 * Hardware Optimization 
