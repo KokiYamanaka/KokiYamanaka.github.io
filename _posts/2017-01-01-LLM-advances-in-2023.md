@@ -5,6 +5,7 @@ categories: media
 ---
 
 ## Abstract 
+**This post explores prominent and lesser-known research trends in LLM, encompassing both practical applications and theoretical advancements. These below six topics encapsulate the focal points of most LLM research.**
 
 ## Table of contents 
 * Hardware Optimization 
@@ -22,10 +23,8 @@ Large Language Models (LLMs) requires substantial GPU memory for training, faces
 
 |![image](https://github.com/KokiYamanaka/kokiyamanaka.github.io/assets/107101940/59cd8197-4415-42a2-8efa-b94e8e272120){:width="500px"} | ![image](https://github.com/KokiYamanaka/kokiyamanaka.github.io/assets/107101940/00b2177c-8a3d-4649-b75c-210c96885de1){:width="500px"}|
 
-<small>
-<p style="text-align: center;">Scenario where light-weight LLM is crucial : Using GPT 3.5 Turbo to drive the vehicle from Turing Inc</p> 
- 
-[video](https://www.youtube.com/watch?v=B7iBtwQflIE) 
+|<small>
+Scenario where light-weight LLM is crucial : Using GPT 3.5 Turbo to drive the vehicle from Turing Inc,  [video](https://www.youtube.com/watch?v=B7iBtwQflIE) 
 
 
 ### Model Architecture
@@ -44,9 +43,10 @@ $$ h'(t) = Ah(t) + Bx(t)  $$
 
 $$ y(t) = Ch(t)  $$
 
-<small>
+|<small>
 where matrices $$A$$, $$B$$, $$C$$ capture pertinent information from the input sequence, $$x(t)$$ are word embeddings, 
- 
+
+|<small>
 and $$h(t)$$ are hidden state are time $$t$$. 
 
 First equation signifies that the next state of the system $$ h'(t) $$ is updated by considering the current hidden state $$Ah(t)$$ and incorporating a temporal hidden state $$ Bx(t) $$. This temporal component is sequence length adjustable. The resulting $$y(t)$$ represents our output sequence derived from the final hidden state matrix.
@@ -67,6 +67,7 @@ The second trend, more prevalent in industry, involves evaluating foundational m
 |<small>
 Comparison of LLMs’ accuracy for spatial-aware decision-making (SADM), following the
 traffic rules (FTR), both combined (SADM&FTR)
+
 |<small>
 Representative example of reasoning outputs from LLMs. GPT-4 is the only model that
 correctly made a decision without being misled by the user’s instructions.
@@ -110,6 +111,7 @@ These papers essentially propose LLM to think/generate in different ways inspire
 They are frequently employed to enhance Large Language Models (LLMs) with increased context awareness. There exist pre and post retrieval frameworks. Former performs a query and latter (filtering, reranking, prompt compression) refines the query for accuracy. The former seems to have more attention by major conferences. [Jina](https://arxiv.org/abs/2307.11224), 8k token text embedding model, suggests accurate context awareness occur when longer sequences are stored per unit retrieval vector, while [Dense X Retrieval](https://arxiv.org/abs/2312.06648), opposes Jina, saying that shorter sequences are more accurate. Dense X says "proposition" (short and clear statement) as per unit vector is better. 
 
 |![image](https://github.com/KokiYamanaka/kokiyamanaka.github.io/assets/107101940/b9b99e86-98cf-4687-8b2a-b94aebd56ddd)|![image](https://github.com/KokiYamanaka/kokiyamanaka.github.io/assets/107101940/a0f0b605-276d-4a74-9459-c9fc937f7a7b)|
+|<small> Left : Simulation of DenseXRetrieval and its comparison result with sentence & passage vector store
 
 
 
@@ -123,7 +125,7 @@ One interesting applications of LLM that I've seen is how LLM is used in Trading
 
 For instance, "[Can ChatGPT Forecast Stock Price Movements? Return Predictability and Large Language Models](https://arxiv.org/abs/2304.07619)" utilized LLM to analyze public sentiments towards a certain stock price. It uses larger parameter models like ChatGPT4 to produce a sharpe ratio (returns with good degree of risks) of 3.8 (>3 is generally good) on some stock prices. Rating, explaination, confidence of generation is also asked by LLM to measure model's explanability. 
 
-|![image](https://github.com/KokiYamanaka/kokiyamanaka.github.io/assets/107101940/3c9f9e48-17ab-4ec8-8511-ac01e4cf8047)|
+![image](https://github.com/KokiYamanaka/kokiyamanaka.github.io/assets/107101940/3c9f9e48-17ab-4ec8-8511-ac01e4cf8047)|
 <small> 
 Cumulative Returns of Investing $1 (Without Transaction Costs)
 
