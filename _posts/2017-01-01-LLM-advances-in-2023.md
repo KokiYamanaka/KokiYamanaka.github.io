@@ -23,16 +23,19 @@ Large Language Models (LLMs) requires substantial GPU memory for training, faces
 |![image](https://github.com/KokiYamanaka/kokiyamanaka.github.io/assets/107101940/59cd8197-4415-42a2-8efa-b94e8e272120){:width="500px"} | ![image](https://github.com/KokiYamanaka/kokiyamanaka.github.io/assets/107101940/00b2177c-8a3d-4649-b75c-210c96885de1){:width="500px"}|
 
 <small>
-<p style="text-align: center;">Scenario where light-weight LLM is crucial : [Using GPT 3.5 Turbo to drive the vehicle from Turing Inc](https://www.youtube.com/watch?v=B7iBtwQflIE)</p>
+<p style="text-align: center;">Scenario where light-weight LLM is crucial : Using GPT 3.5 Turbo to drive the vehicle from Turing Inc</p> 
+ 
+[video](https://www.youtube.com/watch?v=B7iBtwQflIE) 
 
 
 ### Model Architecture
 Previously, transformers, which uses self attention mechanism (weigh importance of each word with other words to predict the next word) has quadratic time complexity. Now, [MAMBA](https://arxiv.org/abs/2312.00752) lowers this time complexity. The key idea behind this is the Selective SSM (Selective State Space Model). The state space idea is similar to the widely known Hidden Markov Model (HMM), which assumes likelyhood of transitioning to the next state only depends current state, ignoring all the historical states. [Jim Simons, a mathematician who beated the wall street, also achieved a good profit by using HMM]
 
-Recall that, each RNN hidden state's can't remember a long range of sequence. Selective SSM is essentially an "upgraded version" of RNN. Upgraded means the hidden state, which acts as a memory unit, stores a longer window of past sequences. In other words, LLM can remember a broader context in a sentence. 
 
-In each RNN's hidden state, longer sequence memory retention is achieved by filteringout irrelevant tokens and compressing the relevant tokens.
+Recall that, each RNN hidden state's can't remember a long range of sequence. Selective SSM is essentially an "upgraded version" of RNN. Upgraded means the hidden state, which acts as a memory unit, stores a longer window of past sequences. In other words, LLM can remember a broader context in a sentence. In each RNN's hidden state, longer sequence memory retention is achieved by filteringout irrelevant tokens and compressing the relevant tokens.
 This mechanism is called the “selective”.
+
+![image](https://github.com/KokiYamanaka/kokiyamanaka.github.io/assets/107101940/83ce145b-5543-4056-8657-d28f02e612ed)
 
 The in depth versions of this mechanism works as follows. 
 In the realm of each RNN's hidden state, extending memory for longer sequences involves a selective mechanism. This process entails filtering out irrelevant tokens and compressing pertinent ones. The underlying mechanism, termed "selective," operates with the following intricacies: 
