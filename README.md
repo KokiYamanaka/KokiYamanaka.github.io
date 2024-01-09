@@ -17,11 +17,10 @@ layout: page
 <small>
 Aug 2023 - Dec 2023
   
-Toranomon, Japan 
-</small>
+Toranomon, Japan </small>
 
-- Implemented a Language Model (LLM) to automate and streamline labor consultant tasks, specifically handling recurring legal inquiries during employment contract creation
-- Skills: LLM · RAG · AWS (ML focused) · Traditional NLP libraries
+- -Implemented a Language Model (LLM) to automate and streamline labor consultant tasks, specifically handling recurring legal inquiries during employment contract creation
+- -Skills: LLM · RAG · AWS (ML focused) · Traditional NLP libraries
 
 ### Software Engineer Intern 
 [Portbank Inc](https://portback.com/) 
@@ -31,11 +30,17 @@ May 2023 - July 2023
 Kanda, Japan 
 </small>
 
-- Implemented LLM model for a tourist application app, focusing on text-data preparation, vector database setup, and seamless LLM integration.
-- Skills: Chroma · Python · Lang-chain · Weavite · Docker · Natural Language Processing (NLP)
+- -Implemented LLM model for a tourist application app, focusing on text-data preparation, vector database setup, and seamless LLM integration.
+- -Skills: Chroma · Python · Lang-chain · Weavite · Docker · Natural Language Processing (NLP)
 
-### Math content writter 
-Colodus · Internship | Apr 2023 - May 2023 | Tokyo, Japan 
+### Math Content Writer Intern
+[Colodus](https://colodus.com/)
+<small>
+Apr 2023 - May 2023 
+
+Tokyo, Japan
+</small>
+
 - Developed math problems for a Japanese university entrance exam as part of an LLM-based education startup. Additionally, designed a program utilizing LLM models to automate the conversion of math content from text to Katex format.
 - Skills: LaTeX · Katex · lang chain · Mathematics · Python (Programming Language)
 
