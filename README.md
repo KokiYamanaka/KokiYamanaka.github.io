@@ -11,7 +11,7 @@ layout: page
 ## Experience
 
 ### Generative AI Engineer Intern 
-[Open Associates Inc](https://www.open-associates.com/) 
+[Open Associates Inc - RPA Holdings](https://www.open-associates.com/) 
 
 <small>
 Aug 2023 - Dec 2023
@@ -23,6 +23,7 @@ Toranomon, Japan
 
 ### Software Engineer Intern 
 [Portbank Inc](https://portback.com/) 
+
 <small> 
 May 2023 - July 2023 
 <small>
@@ -32,7 +33,8 @@ Kanda, Japan
 - -Skills: Chroma · Python · Lang-chain · Weavite · Docker · Natural Language Processing (NLP)
 
 ### Math Content Writer Intern
-[Colodus](https://colodus.com/)
+Colodus
+
 <small>
 Apr 2023 - May 2023 
 <small>
