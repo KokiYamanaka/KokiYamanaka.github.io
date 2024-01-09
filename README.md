@@ -13,17 +13,25 @@ layout: page
 
 ### Generative AI Engineer Intern 
 [Open Associates Inc](https://www.open-associates.com/) 
+
 <small>
 Aug 2023 - Dec 2023
+  
 Toranomon, Japan 
 </small>
+
 - Implemented a Language Model (LLM) to automate and streamline labor consultant tasks, specifically handling recurring legal inquiries during employment contract creation
 - Skills: LLM · RAG · AWS (ML focused) · Traditional NLP libraries
 
 ### Software Engineer Intern 
-[Portbank Inc](https://portback.com/) · Internship | May 2023 - July 2023 | Kanda, Japan 
+[Portbank Inc](https://portback.com/) 
+<small> 
+May 2023 - July 2023 
 
-- Implemented LLM model for a tourist application, focusing on text-data preparation, vector database setup, and seamless LLM integration.
+Kanda, Japan 
+</small>
+
+- Implemented LLM model for a tourist application app, focusing on text-data preparation, vector database setup, and seamless LLM integration.
 - Skills: Chroma · Python · Lang-chain · Weavite · Docker · Natural Language Processing (NLP)
 
 ### Math content writter 
