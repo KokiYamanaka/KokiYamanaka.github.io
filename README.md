@@ -56,7 +56,7 @@ Tokyo, Japan
   
 ## Projects
 1. DASC6510/STAT4990 Time Series Analysis and Forecasting :<br>
-*Determining the Optimal Forecasting Model for the Dow Jones Industrial Average (DJI) [Paper](https://github.com/KokiYamanaka/KokiYamanaka.github.io/files/13630767/stat4990_project_paper.pdf), [Github](https://github.com/kumi99/STAT_4990_Final_Project/tree/main), [Slides]([https://github.com/KokiYamanaka/KokiYamanaka.github.io/files/13630986/STAT.4990.Presentation.pptx](https://github.com/KokiYamanaka/kokiyamanaka.github.io/blob/08541c2da955982874587bbbb086550051072a28/assets/project/STAT%204990%20Presentation.pdf))*
+*Determining the Optimal Forecasting Model for the Dow Jones Industrial Average (DJI) [Paper](https://github.com/KokiYamanaka/KokiYamanaka.github.io/files/13630767/stat4990_project_paper.pdf), [Github](https://github.com/kumi99/STAT_4990_Final_Project/tree/main), [Slides](https://github.com/KokiYamanaka/KokiYamanaka.github.io/files/13630986/STAT.4990.Presentation.pptx)(https://github.com/KokiYamanaka/kokiyamanaka.github.io/blob/08541c2da955982874587bbbb086550051072a28/assets/project/STAT%204990%20Presentation.pdf))*
 2. MATH4430 Graph Theory :<br>
 *Most Efficient Algorithm for finding an Euler Trail in a graph: Hierholzer vs. Fleury [Paper](https://github.com/KokiYamanaka/KokiYamanaka.github.io/files/13630771/math4430_project_paper.pdf),  [Code](https://colab.research.google.com/drive/1-BEuy6KD8R35OprpvlcpYPPUR6rAoPBo?usp=sharing), [slides](https://github.com/KokiYamanaka/KokiYamanaka.github.io/files/13630991/math4430_project_slides.pdf)*
 3. COMP4980_03 Computer Vision:<br>
