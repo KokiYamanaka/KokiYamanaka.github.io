@@ -4,17 +4,21 @@ permalink: "/about/"
 layout: page
 ---
 <img src="(https://github.com/KokiYamanaka/kokiyamanaka.github.io/assets/107101940/e9027a67-d246-40ad-8684-1e3330e86a33" width="200" height="200" alt="profile-pic">
+![image](https://github.com/KokiYamanaka/kokiyamanaka.github.io/assets/107101940/c5d7bbf2-4dd4-4847-ae97-4fe7810c05fe)
 
-* BSc - Mathematics, minor in Computer Science at [TRU](https://www.tru.ca/) 
+* BSc - Mathematics, minor in Computer Science at [TRU](https://www.tru.ca/) (Canada)
 * liewguangyi2001@gmail.com
 
 ## Experience
 
 ### Generative AI Engineer Intern 
-[Open Associates Inc](https://www.open-associates.com/) · Internship | Auguest  2023 - Present | Toranomon, Japan  
-- Automating Labor and Social Security Attorney inquiries for companies hiring employees, streamlining responses to recurring questions on legal aspects of employment contracts. Utilizing Language Model technology for efficient and accurate guidance based on historical inquiries.
-- Skills: Opensource LLM models · Tools needed for [RAG](https://www.promptingguide.ai/techniques/rag) · AWS · NLP tools · Data preparation 
-
+[Open Associates Inc](https://www.open-associates.com/) 
+<small>
+Aug 2023 - Dec 2023
+Toranomon, Japan 
+</small>
+- Implemented a Language Model (LLM) to automate and streamline labor consultant tasks, specifically handling recurring legal inquiries during employment contract creation
+- Skills: LLM · RAG · AWS (ML focused) · Traditional NLP libraries
 
 ### Software Engineer Intern 
 [Portbank Inc](https://portback.com/) · Internship | May 2023 - July 2023 | Kanda, Japan 
