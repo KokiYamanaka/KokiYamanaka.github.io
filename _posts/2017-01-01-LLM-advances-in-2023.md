@@ -1,5 +1,5 @@
 ---
-title:  "Advanced examples"
+title:  "llm advances in 2023"
 mathjax: true
 layout: post
 categories: media
