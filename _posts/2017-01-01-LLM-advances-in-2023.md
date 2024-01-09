@@ -48,9 +48,18 @@ $$ y(t) = Ch(t)  $$
 where matrices $$A$$, $$B$$, $$C$$ capture pertinent information from the input sequence, $$x(t)$$ are word embeddings, $$h(t)$$ are hidden state are time $t$. 
 
 First equation signifies that the next state of the system $$ h'(t) $$ is updated by considering the current hidden state $$Ah(t)$$ and incorporating a temporal hidden state $$ Bx(t) $$. This temporal component is sequence length adjustable. The resulting $$y(t)$$ represents our output sequence derived from the final hidden state matrix.
-
 <br>
 For instance, consider the phrase "The cat sat on the mat." SSM computes word correlations by dynamically adjusting the windowing size, a parameter fine-tuned through learnable processes like gradient descent. This dynamic windowing size enables the model to flexibly adapt its behavior to the specificities of encountered data at each step.
+
+### Metrics 
+I believe there are 2 main research trend on metrics. One to evaluate inherent capabilities of Foundational Models such as generation efficiency, and another to evaluate the capabilites of Foundation Models on specific domain. 
+
+The first kind includes creating new kind of metrics drawing from other fields to evaluate Models. [Elo Uncovered](https://arxiv.org/abs/2311.17295), studies the suitability of using chess game ranking to evaluate the capabilities of LLM. It focuses to prove 2 axioms, reliability and transitivity. 
+Transitivity in evaluations eliminates the need for costly head-to-head model comparisons. If Model A is deemed superior to Model B and Model B is superior to Model C, transitivity suggests that Model A is also superior to Model C ($$A$$ > $$B$$ and $$B$$ > $$C$$ implies $$A > C$$). 
+
+The second trend, more prevalent in industry, involves evaluating foundational models based on their domain-specific capabilities. An example is the paper [Evaluation of Large Language Models for Decision Making in Autonomous Driving](https://arxiv.org/abs/2312.06351) by Turing. Key considerations include using a couple models, identifying the essential LLM capabilities (spatial awareness and traffic rule adherence) needed for the task (driving in complex scenarios), setting up a design for quantitative evaluation. 
+
+For decision making task, initially finding out the kind capabitilies LLM needed is crucial for production as it reduces the development time.  
 
 ## MathJax
 
@@ -67,6 +76,7 @@ $$ \frac{\mathrm{d}}{\mathrm{d}t} \left ( \frac{\partial L}{\partial \dot{q}} \r
 The [Schrödinger equation](https://en.wikipedia.org/wiki/Schr%C3%B6dinger_equation) describes how the quantum state of a quantum system changes with time.
 
 $$ i\hbar\frac{\partial}{\partial t} \Psi(\mathbf{r},t) = \left [ \frac{-\hbar^2}{2\mu}\nabla^2 + V(\mathbf{r},t)\right ] \Psi(\mathbf{r},t) $$
+
 
 ## Code
 
