@@ -4,8 +4,9 @@ mathjax: true
 categories: media
 ---
 
+## Abstract 
+
 ## Table of contents 
-Theoretical improvements
 * Hardware Optimization 
 * Model Architecture
 * Metrics 
@@ -13,7 +14,6 @@ Theoretical improvements
 * Retrievals
 * Applications 
 
-## Thereotical improvements
 ### Hardware Optimization 
 Large Language Models (LLMs) requires substantial GPU memory for training, faces high cost issue for small companies and inference, posing challenges for deployment on low-GPU devices like taxi monitors in self-driving scenarios. To address this, Quantization and optimized memory allocation have been introduced. [QLORA](https://arxiv.org/abs/2305.14314)
  efficiently fine-tunes LLMs by quantizing pretrained model weights into fewer bits and introducing new domain-specific weights. Quantization can be also thought as a compression process, employed in Image Compression as well. For example, [IGS (Improved gray-scale)](https://inst.eecs.berkeley.edu/~ee225b/sp14/homework/IGS.pdf) utilizes quantization to compress a less meaningful pixel area image of a bottle from 32 bits to 16 bits.
@@ -63,12 +63,12 @@ The second trend, more prevalent in industry, involves evaluating foundational m
  
 
 <p align="center">
-  <img width="460" height="300" src="https://github.com/KokiYamanaka/kokiyamanaka.github.io/assets/107101940/c0a859c1-806e-4a59-8119-735af70d93f5)">
+  <img width="460" height="300" src="https://github.com/KokiYamanaka/kokiyamanaka.github.io/assets/107101940/bd509cfe-d55d-400b-97a5-d45b8bf432dd">
 </p>
 
-<small>
-<p style="text-align: center;">Comparison of LLMs’ accuracy for spatial-aware decision-making (SADM), following the
-traffic rules (FTR), both combined (SADM&FTR)</p> 
+|<small>
+Comparison of LLMs’ accuracy for spatial-aware decision-making (SADM), following the
+traffic rules (FTR), both combined (SADM&FTR)
  
 For decision making task, initially finding out the kind capabitilies LLM needed is crucial for production as it reduces the development time.  
 
@@ -96,6 +96,8 @@ print("The average is:", average)
 step2 : 
 A : The average of 10, 15, 20, 25, and 30 is 20.
 ```
+|<small>
+Simulation between usual genearation vs generation with CoC
 
 System 2 Attention, inspired by cognitive science and similar the book [Thinking, Fast and Slow](https://www.amazon.ca/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555) argues, adapts the dual-system theory for prompt engineering. It basically suggest LLM to illuminate input sentences that requiring deeper reasoning, and re-encoding the identified segnments. It shifts from fast, intuitive System 1 processing to slow, focused System 2 reasoning by emphasizing specific input sections. For instance, when LLM encouters long input sequences where sub-sequences requires some arithmetic calculation, this mechanism comes into play. 
 
@@ -127,6 +129,7 @@ Cumulative Returns of Investing $1 (Without Transaction Costs)
 The task left for us is to "deepen" LLM insights. The focus should extend beyond surface-level information, exploring more profound layers of textual data for a nuanced understanding of market dynamics. Some Quant research institution from China has been doing this"[Integrating Stock Features and Global Information via Large Language Models for Enhanced Stock Return Prediction](https://arxiv.org/abs/2310.05627)". They created Local-Global model to extract deeper level insights and SCRL (Self-Correlated Reinforcement Learning) to focus on aligning news text with stock features on same semantic space. Align here means creating a common quantitatitve space for better sentiment analysis.
 
 ![image](https://github.com/KokiYamanaka/kokiyamanaka.github.io/assets/107101940/b8e8ff7e-2e8d-44ae-ba68-f0e6490dbfcd)
-<small> The Self-Correlated Reinforcement Learning with Local Global Model
+|<small>
+Self-Correlated Reinforcement Learning with Local Global Model
 
 Also, "[NuScenes-MQA: Integrated Evaluation of Captions and QA for Autonomous Driving Datasets using Markup Annotations](https://arxiv.org/abs/2312.06352)", creates QA datasets enclosed with markups. Markups for instance, highlight important objects captured by a car camera (e.g., "How many <obj> cars </obj> are in <cam>front</cam> of the ego car?"). These highlighted details are then sent to Large Language Models (LLMs) to make driving decisions. Although it's not the most effective, but we may use apply these technique in Quant Trading. One may take Bitcoin news represented in jpg format as input data to construct or train visual model. 
