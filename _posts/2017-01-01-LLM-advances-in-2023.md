@@ -61,57 +61,47 @@ The second trend, more prevalent in industry, involves evaluating foundational m
 
 For decision making task, initially finding out the kind capabitilies LLM needed is crucial for production as it reduces the development time.  
 
-## MathJax
+### Prompt Engineering 		
+This topic may seem ridiculous to some, as it gives the notion of "no-code." However, it becomes crucial for organizations aiming to build LLM-products under cost constraints, as fine-tuning incurs high expenses. In early 2022, CoT ([Chain of Thought](https://arxiv.org/abs/2201.11903)) suggested that LLMs generate sequences in a "think step-by-step" process. This led to various variants such as ToT ([Tree of Thought](https://arxiv.org/abs/2305.10601)), CoC ([Chain of Code](https://arxiv.org/abs/2312.04474)), and [System 2 Attention](https://arxiv.org/abs/2312.04474). 
 
-You can enable MathJax by setting `mathjax: true` on a page or globally in the `_config.yml`. Some examples:
+ToT breaks down problems into smaller components organized in a tree-like structure. It allows for backtracking to revise decisions, scores intermediate solutions, and offers a more cost-effective computation compared to CoT.
 
-[Euler's formula](https://en.wikipedia.org/wiki/Euler%27s_formula) relates the  complex exponential function to the trigonometric functions.
+CoC  aims to enhance reasoning by "emulating" problem-solving through coding. The process involves solving problems by writing code, and the model then generates output text similar to the code written. This gives LLM to higher-level reasoning, allowing the model to understand and articulate solutions in a manner akin to traditional programming. An example scenario could be solving a math problem, such as finding the average number of people, where the model leverages coding logic to produce a coherent and structured textual output.
 
-$$ e^{i\theta}=\cos(\theta)+i\sin(\theta) $$
+Q : find average 10, 15, 20, 25, 30
 
-The [Euler-Lagrange](https://en.wikipedia.org/wiki/Lagrangian_mechanics) differential equation is the fundamental equation of calculus of variations.
+Traditional 
+```
+A : The average of 10, 15, 20, 25, and 30 is 20.
+```
 
-$$ \frac{\mathrm{d}}{\mathrm{d}t} \left ( \frac{\partial L}{\partial \dot{q}} \right ) = \frac{\partial L}{\partial q} $$
+Chain of code
+```python
+step1 : 
+numbers = [10, 15, 20, 25, 30]
+average = sum(numbers) / len(numbers)
+print("The average is:", average)
+    
+step2 : 
+A : The average of 10, 15, 20, 25, and 30 is 20.
+```
 
-The [Schrödinger equation](https://en.wikipedia.org/wiki/Schr%C3%B6dinger_equation) describes how the quantum state of a quantum system changes with time.
-
-$$ i\hbar\frac{\partial}{\partial t} \Psi(\mathbf{r},t) = \left [ \frac{-\hbar^2}{2\mu}\nabla^2 + V(\mathbf{r},t)\right ] \Psi(\mathbf{r},t) $$
+System 2 Attention, inspired by cognitive science and similar the book [Thinking, Fast and Slow](https://www.amazon.ca/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555) argues, adapts the dual-system theory for prompt engineering. It basically suggest LLM to illuminate input sentences that requiring deeper reasoning, and re-encoding the identified segnments. It shifts from fast, intuitive System 1 processing to slow, focused System 2 reasoning by emphasizing specific input sections. For instance, when LLM encouters long input sequences where sub-sequences requires some arithmetic calculation, this mechanism comes into play. 
 
 
-## Code
+These papers essentially propose LLM to think/generate in different ways inspired by cognitive science or psychology or perhaps in other way how "humans" solve problems. Some are somewhat equivalent to what traditional machine learning is doing. ToT is akin to a decision tree in traditional machine learning, while CoT mimics traditional programming, producing output rather than rules (an ML technique). 
 
-Embed code by putting `{{ "{% highlight language " }}%}` `{{ "{% endhighlight " }}%}` blocks around it. Adding the parameter `linenos` will show source lines besides the code.
+ 
+### Retrievals
+They are frequently employed to enhance Large Language Models (LLMs) with increased context awareness. There exist pre and post retrieval frameworks. Former performs a query and latter (filtering, reranking, prompt compression) refines the query for accuracy. The former seems to have more attention by major conferences. [Jina](https://arxiv.org/abs/2307.11224), 8k token text embedding model, suggests accurate context awareness occur when longer sequences are stored per unit retrieval vector, while [Dense X Retrieval](https://arxiv.org/abs/2312.06648), opposes Jina, saying that shorter sequences are more accurate. Dense X says "proposition" (short and clear statement) as per unit vector is better. In the Tower of Pisa example, proposition retrieval efficiently conveys the angle without unnecessary details: "The Leaning Tower of Pisa now leans at about 3.99 degrees."
 
-{% highlight c %}
 
-static void asyncEnabled(Dict* args, void* vAdmin, String* txid, struct Allocator* requestAlloc)
-{
-    struct Admin* admin = Identity_check((struct Admin*) vAdmin);
-    int64_t enabled = admin->asyncEnabled;
-    Dict d = Dict_CONST(String_CONST("asyncEnabled"), Int_OBJ(enabled), NULL);
-    Admin_sendMessage(&d, txid, admin);
-}
 
-{% endhighlight %}
+## Applications 
+One interesting applications of LLM that I've seen is how LLM is used in Trading. Till now, we've used stock features (e.g. price, volume) follow by traditional Time Series or Machine Learning models to perform prediction. However, more "publicly available information" are needed as sources for predictions. These additional sources can be "textual data". It could be news headlines or summaries, crypto analytic report, etc. We need to use ingest these sources to LLM, and provide useful insights to make prediction. 
 
-## Gists
+For instance, "[Can ChatGPT Forecast Stock Price Movements? Return Predictability and Large Language Models](https://arxiv.org/abs/2304.07619)" utilized LLM to analyze public sentiments towards a certain stock price. It uses larger parameter models like ChatGPT4 to produce a sharpe ratio (returns with good degree of risks) of 3.8 (>3 is generally good) on some stock prices. Rating, explaination, confidence of generation is also asked by LLM to measure model's explanability. 
 
-With the `jekyll-gist` plugin, which is preinstalled on Github Pages, you can embed gists simply by using the `gist` command:
+The task left for us is to "deepen" LLM insights. The focus should extend beyond surface-level information, exploring more profound layers of textual data for a nuanced understanding of market dynamics. Some Quant research institution from China has been doing this"[Integrating Stock Features and Global Information via Large Language Models for Enhanced Stock Return Prediction](https://arxiv.org/abs/2310.05627)". They created Local-Global model to extract deeper level insights and SCRL (Self-Correlated Reinforcement Learning) to focus on aligning news text with stock features on same semantic space. Align here means creating a common quantitatitve space for better sentiment analysis.
 
-<script src="https://gist.github.com/5555251.js?file=gist.md"></script>
-
-## Images
-
-Upload an image to the *assets* folder and embed it with `![title](/assets/name.jpg))`. Keep in mind that the path needs to be adjusted if Jekyll is run inside a subfolder.
-
-A wrapper `div` with the class `large` can be used to increase the width of an image or iframe.
-
-![Flower](https://user-images.githubusercontent.com/4943215/55412447-bcdb6c80-5567-11e9-8d12-b1e35fd5e50c.jpg)
-
-[Flower](https://unsplash.com/photos/iGrsa9rL11o) by Tj Holowaychuk
-
-## Embedded content
-
-You can also embed a lot of stuff, for example from YouTube, using the `embed.html` include.
-
-{% include embed.html url="https://www.youtube.com/embed/_C0A5zX-iqM" %}
+Also, "[NuScenes-MQA: Integrated Evaluation of Captions and QA for Autonomous Driving Datasets using Markup Annotations](https://arxiv.org/abs/2312.06352)", creates QA datasets enclosed with markups. Markups for instance, highlight important objects captured by a car camera (e.g., "How many <obj> cars </obj> are in <cam>front</cam> of the ego car?"). These highlighted details are then sent to Large Language Models (LLMs) to make driving decisions. Although it's not the most effective, but we may use apply these technique in Quant Trading. One may take Bitcoin news represented in jpg format as input data to construct or train visual model. 
