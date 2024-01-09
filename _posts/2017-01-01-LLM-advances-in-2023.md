@@ -40,13 +40,13 @@ This mechanism is called the “selective”.
 The in depth versions of this mechanism works as follows. 
 In the realm of each RNN's hidden state, extending memory for longer sequences involves a selective mechanism. This process entails filtering out irrelevant tokens and compressing pertinent ones. The underlying mechanism, termed "selective," operates with the following intricacies: 
 
-$$ h'(t) = Ah(t) + Bx(t) $$
+$$ h'(t) = Ah(t) + Bx(t) -- (1) $$ 
 
-$$ y(t) = Ch(t) $$
+$$ y(t) = Ch(t)  -- (2) $$
 
-where matrices $A$, $B$, $C$ capture pertinent information from the input sequence.
+where matrices $$A$$, $$B$$, $$C$$ capture pertinent information from the input sequence and $$x(t)$$ are word embeddings. 
 
-Equation (1) signifies that the next state of the system is updated by considering the current hidden state and incorporating a temporal hidden state. The resulting y(t) represents our output sequence derived from the final hidden state matrix.
+Equation $$ (1) $$ signifies that the next state of the system $$ h'(t) $$ is updated by considering the current hidden state $$Ah(t)$$ and incorporating a temporal hidden state $$ Bx(t) $$. This temporal component is sequence length adjustable. The resulting $$y(t)$$ represents our output sequence derived from the final hidden state matrix.
 
 Illustratively, consider the phrase "The cat sat on the mat." SSM computes word correlations by dynamically adjusting the windowing size, a parameter fine-tuned through learnable processes like gradient descent. This dynamic windowing size enables the model to flexibly adapt its behavior to the specificities of encountered data at each step.
 
