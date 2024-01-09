@@ -3,8 +3,7 @@ title: "Profile"
 permalink: "/about/"
 layout: page
 ---
-
-<img src="https://github.com/KokiYamanaka/KokiYamanaka.github.io/assets/107101940/d458d444-4a62-4fe1-8439-ac521c421916" width="200" height="200" alt="profile-pic">
+<img src="[https://github.com/KokiYamanaka/KokiYamanaka.github.io/assets/107101940/d458d444-4a62-4fe1-8439-ac521c421916](https://github.com/KokiYamanaka/kokiyamanaka.github.io/assets/107101940/18312ced-5f0d-4ee3-8ea6-a1a874f87a4e)" width="200" height="200" alt="profile-pic">
 
 * BSc - Mathematics, minor in Computer Science at [TRU](https://www.tru.ca/) 
 * liewguangyi2001@gmail.com
@@ -39,19 +38,19 @@ Colodus · Internship | Apr 2023 - May 2023 | Tokyo, Japan
 - R, Python, MATLAB, JAVA, SQL
   
 ## Projects
-- DASC6510/STAT4990 Time Series Analysis and Forecasting :<br>
+1. DASC6510/STAT4990 Time Series Analysis and Forecasting :<br>
 *Determining the Optimal Forecasting Model for the Dow Jones Industrial Average (DJI) [Paper](https://github.com/KokiYamanaka/KokiYamanaka.github.io/files/13630767/stat4990_project_paper.pdf), [Github](https://github.com/kumi99/STAT_4990_Final_Project/tree/main), [Slides](https://github.com/KokiYamanaka/KokiYamanaka.github.io/files/13630986/STAT.4990.Presentation.pptx)*
-- MATH4430 Graph Theory :<br>
+2. MATH4430 Graph Theory :<br>
 *Most Efficient Algorithm for finding an Euler Trail in a graph: Hierholzer vs. Fleury [Paper](https://github.com/KokiYamanaka/KokiYamanaka.github.io/files/13630771/math4430_project_paper.pdf),  [Code](https://colab.research.google.com/drive/1-BEuy6KD8R35OprpvlcpYPPUR6rAoPBo?usp=sharing), [slides](https://github.com/KokiYamanaka/KokiYamanaka.github.io/files/13630991/math4430_project_slides.pdf)*
-- COMP4980_03 Computer Vision:<br>
+3. COMP4980_03 Computer Vision:<br>
 *Enhancing Ship Classification via satellite Images: A Comparative Analysis of HOG Feature Descriptor Outperforming PCA [Paper](https://github.com/KokiYamanaka/KokiYamanaka.github.io/files/13630793/computer_vision_project.pdf), [Code](https://colab.research.google.com/drive/1XS353eV0HvTIEB0UMQlDoWY6-qlODfOs?usp=sharing)*
-- COMP4980_01 Machine Learning :<br>
+4. COMP4980_01 Machine Learning :<br>
 *Determining the Optimal Regression Model for Amen Housing Dataset [Paper](https://github.com/KokiYamanaka/KokiYamanaka.github.io/files/13630798/paper_project_comp4980_01.pdf), [Code](https://colab.research.google.com/drive/1M9qpU32CfGL4saWHtiqNGd0jdJquFiUr?usp=sharing#scrollTo=TVAQFB2oblKM)*
-- COMP3710 Applied Artificial Intelligence: <br>
+5. COMP3710 Applied Artificial Intelligence: <br>
 *Creative Art Generation using Genetic Algorithm. [Github](https://github.com/KokiYamanaka/Genetic-painting)*
-- MATH3400 Optimization - Linear Programming:<br>
+6. MATH3400 Optimization - Linear Programming:<br>
 *Optimizing Ukrainian fruit farmer's profit using Linear Programming [Github](https://github.com/KokiYamanaka/Optimization-for-farmers)*
-- COMP3610 Database Systems: <br>
+7. COMP3610 Database Systems: <br>
 *Car rental database system case study [Github](https://github.com/KokiYamanaka/cs-university-coursework/tree/main/COMP3610%20Database%20Systems/project%20case%20study)*
 
 ## Coursework   
