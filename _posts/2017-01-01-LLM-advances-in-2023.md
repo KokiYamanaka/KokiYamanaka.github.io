@@ -31,7 +31,7 @@ Large Language Models (LLMs) requires substantial GPU memory for training, faces
 ### Model Architecture
 Previously, transformers, which uses self attention mechanism (weigh importance of each word with other words to predict the next word) has quadratic time complexity. Now, [MAMBA](https://arxiv.org/abs/2312.00752) lowers this time complexity. The key idea behind this is the Selective SSM (Selective State Space Model). The state space idea is similar to the widely known Hidden Markov Model (HMM), which assumes likelyhood of transitioning to the next state only depends current state, ignoring all the historical states. [Jim Simons, a mathematician who beated the wall street, also achieved a good profit by using HMM]
 
-
+<br>
 Recall that, each RNN hidden state's can't remember a long range of sequence. Selective SSM is essentially an "upgraded version" of RNN. Upgraded means the hidden state, which acts as a memory unit, stores a longer window of past sequences. In other words, LLM can remember a broader context in a sentence. In each RNN's hidden state, longer sequence memory retention is achieved by filteringout irrelevant tokens and compressing the relevant tokens.
 This mechanism is called the “selective”.
 
@@ -40,15 +40,16 @@ This mechanism is called the “selective”.
 The in depth versions of this mechanism works as follows. 
 In the realm of each RNN's hidden state, extending memory for longer sequences involves a selective mechanism. This process entails filtering out irrelevant tokens and compressing pertinent ones. The underlying mechanism, termed "selective," operates with the following intricacies: 
 
-$$ h'(t) = Ah(t) + Bx(t) -- (1) $$ 
+$$ h'(t) = Ah(t) + Bx(t)  (1) $$ 
 
-$$ y(t) = Ch(t)  -- (2) $$
+$$ y(t) = Ch(t)  (2) $$
 
-where matrices $$A$$, $$B$$, $$C$$ capture pertinent information from the input sequence and $$x(t)$$ are word embeddings. 
+where matrices $$A$$, $$B$$, $$C$$ capture pertinent information from the input sequence, $$x(t)$$ are word embeddings, $$h(t)$$ are hidden state are time $t$. 
 
 Equation $$ (1) $$ signifies that the next state of the system $$ h'(t) $$ is updated by considering the current hidden state $$Ah(t)$$ and incorporating a temporal hidden state $$ Bx(t) $$. This temporal component is sequence length adjustable. The resulting $$y(t)$$ represents our output sequence derived from the final hidden state matrix.
 
-Illustratively, consider the phrase "The cat sat on the mat." SSM computes word correlations by dynamically adjusting the windowing size, a parameter fine-tuned through learnable processes like gradient descent. This dynamic windowing size enables the model to flexibly adapt its behavior to the specificities of encountered data at each step.
+<br>
+For instance, consider the phrase "The cat sat on the mat." SSM computes word correlations by dynamically adjusting the windowing size, a parameter fine-tuned through learnable processes like gradient descent. This dynamic windowing size enables the model to flexibly adapt its behavior to the specificities of encountered data at each step.
 
 ## MathJax
 
