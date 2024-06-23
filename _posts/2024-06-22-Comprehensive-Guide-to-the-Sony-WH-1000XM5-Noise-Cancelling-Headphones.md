@@ -1,3 +1,9 @@
+---
+title:  "Comprehensive Guide To The Sony Wh 1000xm5 Noise Cancelling Headphones"
+mathjax: true
+categories: media
+---
+
 ## Introduction
 
 The Sony WH-1000XM5 is designed for music lovers seeking a powerful noise-cancelling system. These headphones are ideal for music enthusiasts and frequent travelers who seek high-quality audio experiences without external interruptions. This document provides a detailed description of the Sony WH-1000XM5’s noise-cancelling system, making it easier for potential buyers to understand the product.
@@ -8,6 +14,7 @@ The Sony WH-1000XM5 is designed for music lovers seeking a powerful noise-cancel
 The Sony WH-1000XM5, the latest flagship noise-cancelling headphones, feature two processors controlling eight microphones for advanced noise cancellation. They also have a smart feature that dynamically adjusts noise-cancelling settings based on the environment.
 
 The product features a sleek and soft-texture design. Dimensions are 9.7 x 8.6 x 2.9 inches (height x width x depth). It weighs 250 grams. The color is available in black, silver, and midnight blue. The headband is designed to be extremely thick with high-density foam.
+
 
 ## Noise Cancelling System Components
 
