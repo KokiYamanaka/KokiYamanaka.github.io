@@ -9,7 +9,7 @@ categories: media
 The Sony WH-1000XM5 is designed for music lovers seeking a powerful noise-cancelling system. These headphones are ideal for music enthusiasts and frequent travelers who seek high-quality audio experiences without external interruptions. This document provides a detailed description of the Sony WH-1000XM5’s noise-cancelling system, making it easier for potential buyers to understand the product.
 
  <div align="center">
-	<img src="(https://github.com/KokiYamanaka/kokiyamanaka.github.io/assets/107101940/5aad6149-3d4f-441e-b552-cc0d130778a3)">
+	<img src="https://github.com/KokiYamanaka/kokiyamanaka.github.io/assets/107101940/5aad6149-3d4f-441e-b552-cc0d130778a3">
 </div>
 *Figure 1 : Sony WH-1000XM5*
 
