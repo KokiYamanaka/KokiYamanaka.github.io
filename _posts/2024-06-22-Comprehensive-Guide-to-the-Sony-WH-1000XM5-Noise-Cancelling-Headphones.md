@@ -91,8 +91,9 @@ The Sony WH-1000XM5 employs Active Noise Cancellation (ANC) to receive ambient n
 This advanced noise-cancelling system is ideal for concentrating in crowded workplaces, listening to music without interruptions, and traveling without vehicle noises.
 
 ## Visuals
-
-![Sony WH-1000XM5](https://github.com/KokiYamanaka/kokiyamanaka.github.io/assets/107101940/43cecbed-e1b7-4984-9fca-8685f535f344)
+<div align="center">
+	<img src="https://github.com/KokiYamanaka/kokiyamanaka.github.io/assets/107101940/43cecbed-e1b7-4984-9fca-8685f535f344">
+</div>
 *Figure 6: The Sony WH-1000XM*
 
 ## Photo sources
