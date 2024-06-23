@@ -10,8 +10,9 @@ The Sony WH-1000XM5 is designed for music lovers seeking a powerful noise-cancel
 
  <div align="center">
 	<img src="https://github.com/KokiYamanaka/kokiyamanaka.github.io/assets/107101940/5aad6149-3d4f-441e-b552-cc0d130778a3">
+	 *Figure 1 : Sony WH-1000XM5*
 </div>
-*Figure 1 : Sony WH-1000XM5*
+ 
 
 The Sony WH-1000XM5, the latest flagship noise-cancelling headphones, feature two processors controlling eight microphones for advanced noise cancellation. They also have a smart feature that dynamically adjusts noise-cancelling settings based on the environment.
 
