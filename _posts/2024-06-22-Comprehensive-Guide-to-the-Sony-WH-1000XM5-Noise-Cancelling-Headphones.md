@@ -4,7 +4,7 @@
 
 The Sony WH-1000XM5 is designed for music lovers seeking a powerful noise-cancelling system. These headphones are ideal for music enthusiasts and frequent travelers who seek high-quality audio experiences without external interruptions. This document provides a detailed description of the Sony WH-1000XM5’s noise-cancelling system, making it easier for potential buyers to understand the product.
 
-![Sony WH-1000XM5]![image](https://github.com/KokiYamanaka/kokiyamanaka.github.io/assets/107101940/5aad6149-3d4f-441e-b552-cc0d130778a3)
+![Sony WH-1000XM5](https://github.com/KokiYamanaka/kokiyamanaka.github.io/assets/107101940/5aad6149-3d4f-441e-b552-cc0d130778a3)
 *Figure 1 : Sony WH-1000XM5*
 
 The Sony WH-1000XM5, the latest flagship noise-cancelling headphones, feature two processors controlling eight microphones for advanced noise cancellation. They also have a smart feature that dynamically adjusts noise-cancelling settings based on the environment.
@@ -21,7 +21,7 @@ The noise cancelling system consists of five main working parts:
 4. Auto NC Optimizer
 5. Speaker driver 
 
-![Exploded Diagram]![image](https://github.com/KokiYamanaka/kokiyamanaka.github.io/assets/107101940/44f6f27f-7ae1-489f-912f-cffc2208d675)
+![image3](https://github.com/KokiYamanaka/kokiyamanaka.github.io/assets/107101940/44f6f27f-7ae1-489f-912f-cffc2208d675)
 *Figure 2: Exploded diagram of the major components of the noise-cancelling system, showing the main
 parts: Microphones (2 internal marked by red arrows and 6 external marked by green triangles),
 Processor, Noise Cancellation Algorithm & Auto NC Optimizer (residing within the Processor), and
@@ -31,7 +31,7 @@ Speaker Driver*
 
 The microphone is an electronic device that receives sounds and converts them into electrical signals, allowing computers to recognize them. The microphone in the Sony WH-1000XM5 is golden and black, weighs 0.04 grams, and is made of silicon. Dimensions: 2.75 x 1.85 x 0.90 mm.
 
-![Microphone]![image](https://github.com/KokiYamanaka/kokiyamanaka.github.io/assets/107101940/6100131d-c2e1-4230-9e6d-df434ccc2443)
+![image](https://github.com/KokiYamanaka/kokiyamanaka.github.io/assets/107101940/6100131d-c2e1-4230-9e6d-df434ccc2443)
 *Figure 3 : (Left) White protection Box encapsulate the microphone on top of Speaker Driver, (Right) Microphone*
 
 ### Processor
