@@ -64,7 +64,7 @@ layout: page
 
 ## Coursework   
 - [Algorithms and Data Structures](https://github.com/KokiYamanaka/cs-university-coursework/tree/main/COMP2231%20Data%20Structures%20and%20Algorithms) ,[Object-oriented programming](https://github.com/KokiYamanaka/cs-university-coursework/tree/main/COMP1230%20Computer%20Programming%202), [JAVA Programming](https://github.com/KokiYamanaka/cs-university-coursework/tree/main/COMP1130-Computer%20Programming%201), [Database systems](https://github.com/KokiYamanaka/cs-university-coursework/blob/main/COMP3610%20Database%20Systems/README.md), Computer Vision, Machine Learning, Applied Artificial Intelligence
-- Statistics, Statistical inference, (Graduate-level) Time Series & Forecasting, Probability theory, Stochastic processes, Real Analysis, Linear algebra 1 and 2, Optimization, Multivariable calculus, Graph Theory, Geometry
+- Statistics, Statistical inference, Time Series & Forecasting, Probability theory, Stochastic processes, Real Analysis, Linear algebra 1 and 2, Optimization, Multivariable calculus, Graph Theory, Geometry
 
 ## Online Courses & Seminar 
 - [Deep Learning Specialization Course](https://github.com/KokiYamanaka/DeepL-course), UTokyo : Spring Seminar 2024: Financial Market Trading and Machine Learning, Summer Seminar 2023 : Large Language Model
