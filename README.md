@@ -19,7 +19,7 @@ layout: page
 - Involved in all stages from problem analysis to development, testing, and utilizing LLM to efficiently gather customer behavior and basic information, generating personalized talk scripts for marketing calls.
 
 ### Generative AI Engineer Intern
-**[Open Associates Inc - RPA Holdings](https://www.open-associates.com/) - RPA Holdings, Toranomon, Tokyo**  
+**[Open Associates Inc - RPA Holdings](https://www.open-associates.com/), Toranomon, Tokyo**  
 *Aug 2023 – Dec 2023*
 
 - Implemented a Chatbot (LLM) to automate and streamline labor consultant tasks, specifically handling common or recurring legal inquiries during employment contract creation.
