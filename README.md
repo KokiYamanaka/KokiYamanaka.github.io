@@ -8,51 +8,43 @@ layout: page
 * BSc - Mathematics, minor in Computer Science at [TRU](https://www.tru.ca/) (Canada)
 * liewguangyi2001@gmail.com
 
-## Experience
+## Work Experience
 
-### Generative AI Engineer Intern 
-[Open Associates Inc - RPA Holdings](https://www.open-associates.com/) 
+### Data Science and Software Engineering Intern
+**[Tebiki, Inc](https://tebiki.co.jp/), Shinjuku, Tokyo**  
+*Jan 2024 – Present*
 
-<small>
-Aug 2023 - Dec 2023
-<small>
-Toranomon, Japan 
+- Deployed a churn prediction model based on customer behavior to reduce churn rate.
+- Involved in developing a web application to display complex organizational charts for 50+ medium-sized Japanese companies, building a pipeline to scrape, preprocess data via APIs, and implement chart functionality.
+- Involved in all stages from problem analysis to development, testing, and utilizing LLM to efficiently gather customer behavior and basic information, generating personalized talk scripts for marketing calls.
 
-- -Implemented a Language Model (LLM) to automate and streamline labor consultant tasks, specifically handling recurring legal inquiries during employment contract creation
-- -Skills: LLM · RAG · AWS (ML focused) · Traditional NLP libraries
+### Generative AI Engineer Intern
+**[Open Associates Inc - RPA Holdings](https://www.open-associates.com/) - RPA Holdings, Toranomon, Tokyo**  
+*Aug 2023 – Dec 2023*
 
-### Software Engineer Intern 
-[Portbank Inc](https://portback.com/) 
+- Implemented a Chatbot (LLM) to automate and streamline labor consultant tasks, specifically handling common or recurring legal inquiries during employment contract creation.
 
-<small> 
-May 2023 - July 2023 
-<small>
-Kanda, Japan  
+### Software Engineer Intern
+**Portbank Inc, Tokyo**  
+*May 2023 – July 2023*
 
-- -Implemented LLM model for a tourist application app, focusing on text-data preparation, vector database setup, and seamless LLM integration.
-- -Skills: Chroma · Python · Lang-chain · Weavite · Docker · Natural Language Processing (NLP)
+- Developed a chatbot targeted for tourists, focusing on explaining brief ideas and features of Buddhist statues in Japan.
 
-### Math Content Writer Intern
-Colodus
+### Math Content Writer
+**Colodus, Toranomon, Tokyo**  
+*Apr 2023 – May 2023*
 
-<small>
-Apr 2023 - May 2023 
-<small>
-Tokyo, Japan 
-
-- -Created math problems for Japanese university entrance exam as part of an LLM-based education startup. 
-- -Designed a program utilizing LLM models to automate the conversion of math content from text to Katex format.
-- -Skills: LaTeX · Katex · lang chain · Mathematics · Python 
+- Created Japanese High School Mathematics problems and solutions for educational materials.
 
 ### Others
 - Assistant Cook at [Vietnamese restaurant](https://www.lemongrasskamloops.ca/) (Canada)
-- Self Catering business [Gallery1](https://www.instagram.com/kokiy_art34/?hl=en) , [Gallery2](https://www.instagram.com/kouki._.kitchen/?hl=en)
-- Laptop configurator at [Hitachi Logistics](https://www.logisteed.com/jp/) 
+- Self Catering Business [Gallery1](https://www.instagram.com/kokiy_art34/?hl=en) , [Gallery2](https://www.instagram.com/kouki._.kitchen/?hl=en)
+- Laptop Configurator at [Hitachi Logistics](https://www.logisteed.com/jp/) 
 - Cook at [Yoshinoya](https://www.yoshinoya.com/en/)
 
 ## Languages
-- -Fluent in English, Chinese, Japanese, Malay
-- -R, Python, MATLAB, JAVA, SQL
+- Fluent in English, Chinese, Japanese, Malay
+- R, Python, MATLAB, JAVA, SQL, C++, C# 
   
 ## Projects
 1. DASC6510/STAT4990 Time Series Analysis and Forecasting :<br>
@@ -72,9 +64,23 @@ Tokyo, Japan
 
 ## Coursework   
 - [Algorithms and Data Structures](https://github.com/KokiYamanaka/cs-university-coursework/tree/main/COMP2231%20Data%20Structures%20and%20Algorithms) ,[Object-oriented programming](https://github.com/KokiYamanaka/cs-university-coursework/tree/main/COMP1230%20Computer%20Programming%202), [JAVA Programming](https://github.com/KokiYamanaka/cs-university-coursework/tree/main/COMP1130-Computer%20Programming%201), [Database systems](https://github.com/KokiYamanaka/cs-university-coursework/blob/main/COMP3610%20Database%20Systems/README.md), Computer Vision, Machine Learning, Applied Artificial Intelligence
-- Statistics, Statistical inference, (Graduate-level) Time Series & Forecasting, Probability theory, Stochastic processes, Real Analysis, Linear algebra, Optimization, Multivariable calculus, Graph Theory. 
+- Statistics, Statistical inference, (Graduate-level) Time Series & Forecasting, Probability theory, Stochastic processes, Real Analysis, Linear algebra 1 and 2, Optimization, Multivariable calculus, Graph Theory, Geometry
 
-## Online Courses
-- [Deep Learning Specialization Course](https://github.com/KokiYamanaka/DeepL-course): Completed a course on neural networks, deep learning, project structuring, and convolutional neural networks.
+## Online Courses & Seminar 
+- [Deep Learning Specialization Course](https://github.com/KokiYamanaka/DeepL-course), UTokyo : Spring Seminar 2024: Financial Market Trading and Machine Learning, Summer Seminar 2023 : Large Language Model
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
