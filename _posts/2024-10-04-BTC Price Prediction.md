@@ -35,7 +35,7 @@ There's a high probability that the bull market will start from **November 05** 
   
 - **BTC Long-term Fundamentals**  
   The stock-to-flow (S2F) model is reaching a critical inflection point, signaling a likely transition to an uptrend. The S2F is the most accurate model (I believe) for long-term BTC movement as it accounts for halvings, which drive value higher over time.
-![graph](https://github.com/user-attachments/assets/07257cbc-5193-4f88-8426-ae0acff90136)
+  ![graph](https://github.com/user-attachments/assets/07257cbc-5193-4f88-8426-ae0acff90136)
 
 ## Price Reversal Expectation
 
