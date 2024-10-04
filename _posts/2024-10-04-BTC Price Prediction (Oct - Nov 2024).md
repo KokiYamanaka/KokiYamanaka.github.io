@@ -1,3 +1,8 @@
+---
+title:  "BTC Price Prediction (Oct-Nov 2024)"
+mathjax: true
+categories: media
+---
 
 # BTC Price Prediction (Oct-Nov 2024)
 
