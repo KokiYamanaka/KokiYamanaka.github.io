@@ -4,8 +4,6 @@ mathjax: true
 categories: media
 ---
 
-# BTC Price Prediction (Oct-Nov 2024)
-
 ## Prediction Scenarios
 
 Only these two scenarios are likely to happen:
